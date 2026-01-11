@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd691665ba7a8c84e8e7c8a61b186213, type: 3}
+  m_Name: SpecialEnemyData2D Summon Elite Melee 1
+  m_EditorClassIdentifier: Assembly-CSharp::SpecialEnemyData2D
+  id: SpecialEnemyData2D Summon Elite Melee 1
+  displayName: SpecialEnemyData2D Summon Elite Melee 1
+  abilities:
+  - {fileID: 11400000, guid: b7c13d591676a1a43a3e62386b5da74f, type: 2}
+  - {fileID: 11400000, guid: fcb10a256cce6ab4989f31a3347cb331, type: 2}
+  - {fileID: 11400000, guid: 5ee6c307a79d07746aa731d87894bbbe, type: 2}

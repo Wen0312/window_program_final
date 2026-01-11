@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 924dbf73504baa74bbea198ed200b2af, type: 3}
+  m_Name: EndGamePoint2D
+  m_EditorClassIdentifier: Assembly-CSharp::ObstacleData
+  id: wall
+  displayName: Wall
+  prefab: {fileID: 7007482062941479672, guid: 4fce77a4841f14a4baaa0efb702aed2c, type: 3}
+  footprintCells: {x: 1, y: 1}
+  snapToGrid: 1
+  gridSize: 1
+  placeCooldown: 0.25
+  blocksMovement: 1
+  legacyFootprintSize: {x: 1, y: 1}
+  maxHP: 50
+  lifetime: 0
+  placeSfx: {fileID: 8300000, guid: 34e1a94ea276da74999dab2658a27420, type: 3}
+  hitSfx: {fileID: 0}
+  destroySfx: {fileID: 0}

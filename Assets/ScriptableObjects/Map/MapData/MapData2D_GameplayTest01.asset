@@ -1,0 +1,1444 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0fcfc8164ed08448bfa5dfde4d8655, type: 3}
+  m_Name: MapData2D_GameplayTest01
+  m_EditorClassIdentifier: Assembly-CSharp::MapData2D
+  mapId: map_001
+  displayName: Map 001
+  gridSize: 1
+  playerSpawnCell: {x: -43, y: -43}
+  usePlayerSpawnCell: 1
+  mapSizeCells: {x: 100, y: 100}
+  weaponLoadout: {fileID: 11400000, guid: 5e0c9d2abfd0759468e979619bac5513, type: 2}
+  buildPalette: {fileID: 11400000, guid: fdf6f4a0cf78a244f9399561de128bc1, type: 2}
+  playWeaponLoadout: {fileID: 11400000, guid: d51fc156b0707fe40925db1aed0f24b0, type: 2}
+  playBuildPalette: {fileID: 11400000, guid: 86c5717af8e77f645bbebd2442210da8, type: 2}
+  editorWeaponLoadout: {fileID: 11400000, guid: 57e3c882d4d13a948a8c55fb8c3c8d88, type: 2}
+  editorBuildPalette: {fileID: 11400000, guid: 0ea635919c7414a45ad1131988e7e537, type: 2}
+  startInBuildMode: 0
+  useEditorLoadouts: 0
+  presetObstacles:
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -40, y: -37}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 7f19f11de33694843b831975a54663a0, type: 2}
+    cell: {x: -24, y: -18}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 9a840a2086da92c48bb2b5676e804e47, type: 2}
+    cell: {x: -35, y: -32}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: ced669547f34f49e08e73e98100f3535, type: 2}
+    cell: {x: -23, y: -40}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: ced669547f34f49e08e73e98100f3535, type: 2}
+    cell: {x: -26, y: -42}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: ced669547f34f49e08e73e98100f3535, type: 2}
+    cell: {x: -31, y: -42}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: ced669547f34f49e08e73e98100f3535, type: 2}
+    cell: {x: -38, y: -39}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: abce100e81df9a649a8b294d8f6e4bc0, type: 2}
+    cell: {x: -41, y: -42}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: fdf3cbbadd8587f4eabb6df9292bde8b, type: 2}
+    cell: {x: 1, y: 2}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: fdf3cbbadd8587f4eabb6df9292bde8b, type: 2}
+    cell: {x: -2, y: 2}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: fdf3cbbadd8587f4eabb6df9292bde8b, type: 2}
+    cell: {x: 4, y: 2}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: fdf3cbbadd8587f4eabb6df9292bde8b, type: 2}
+    cell: {x: -6, y: -20}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: fdf3cbbadd8587f4eabb6df9292bde8b, type: 2}
+    cell: {x: -6, y: -22}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 5a30b10fc7afca2469f52b93854b07cf, type: 2}
+    cell: {x: -1, y: -21}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 5a30b10fc7afca2469f52b93854b07cf, type: 2}
+    cell: {x: -24, y: -17}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 27613ede16b695249b578d6c82971e9d, type: 2}
+    cell: {x: 3, y: -2}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 27613ede16b695249b578d6c82971e9d, type: 2}
+    cell: {x: 3, y: -4}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 27613ede16b695249b578d6c82971e9d, type: 2}
+    cell: {x: -3, y: -5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 27613ede16b695249b578d6c82971e9d, type: 2}
+    cell: {x: 6, y: -5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 27613ede16b695249b578d6c82971e9d, type: 2}
+    cell: {x: -4, y: -4}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 0, y: -2}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 1, y: -2}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 2, y: -2}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 2, y: -3}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: 1, y: -3}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 0, y: -3}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 2, y: -4}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 1, y: -4}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 0, y: -4}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -2, y: -5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 0, y: -6}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 2, y: -6}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 4, y: -6}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -2, y: -7}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 4, y: -7}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -2, y: -6}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: 3, y: -6}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -1, y: -6}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 27613ede16b695249b578d6c82971e9d, type: 2}
+    cell: {x: 5, y: -3}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 0, y: -5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -1, y: -5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 2, y: -5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 3, y: -5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 4, y: -5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -13, y: 2}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -15, y: 0}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -14, y: 1}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -11, y: -4}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -12, y: -4}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -14, y: -4}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -15, y: -4}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -13, y: -4}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -13, y: -3}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -13, y: -2}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -13, y: -1}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -13, y: 0}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -13, y: 1}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -44, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -43, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -42, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -41, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -40, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -39, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -38, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -36, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -35, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -34, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -44, y: -44}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -44, y: -43}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -44, y: -42}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -44, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -35, y: -35}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -36, y: -35}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -35}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -34}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -33}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -32}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -41, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -40, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -40, y: -42}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -36, y: -43}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -35, y: -43}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -36, y: -44}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -35, y: -44}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -34, y: -43}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -34, y: -44}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -33, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -32, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -31, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 27613ede16b695249b578d6c82971e9d, type: 2}
+    cell: {x: -30, y: -44}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -30, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -29, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -28, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -27, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -26, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -25, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -24, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 5a30b10fc7afca2469f52b93854b07cf, type: 2}
+    cell: {x: -25, y: -44}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -23, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -22, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -45}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -44}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -43}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -42}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -40}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -39}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -24, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -24, y: -40}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -38}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -37}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -24, y: -37}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -28, y: -38}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -28, y: -39}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -25, y: -40}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -26, y: -40}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -27, y: -40}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -28, y: -40}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -29, y: -40}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -29, y: -37}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -28, y: -37}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -27, y: -37}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -26, y: -37}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -25, y: -37}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -24, y: -36}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -36}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -24, y: -35}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -35}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -27, y: -39}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -27, y: -38}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -25, y: -35}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -26, y: -35}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -27, y: -35}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -28, y: -35}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -29, y: -35}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -30, y: -35}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -31, y: -35}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -31, y: -32}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -30, y: -32}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -29, y: -32}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -28, y: -32}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -27, y: -32}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -26, y: -32}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -25, y: -32}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -24, y: -32}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -34}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -33}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -32}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -23, y: -32}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -22, y: -32}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -28, y: -33}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -28, y: -34}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 13625051cc6400243af3388cfa1c9f66, type: 2}
+    cell: {x: -29, y: -33}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 13625051cc6400243af3388cfa1c9f66, type: 2}
+    cell: {x: -29, y: -34}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -27, y: -34}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -27, y: -33}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -32, y: -35}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -32, y: -32}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -33, y: -32}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -33, y: -35}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -34, y: -35}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 13625051cc6400243af3388cfa1c9f66, type: 2}
+    cell: {x: -30, y: -33}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 13625051cc6400243af3388cfa1c9f66, type: 2}
+    cell: {x: -30, y: -34}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -26, y: -34}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -26, y: -33}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -31}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -30}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -29}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -28}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -27}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -26}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -25}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -36, y: -28}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -35, y: -28}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -24}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -22}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -21}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -20}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -36, y: -20}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -35, y: -20}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -33, y: -20}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -34, y: -20}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -33, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -31, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -30, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -32, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -32, y: -20}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -31, y: -20}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -30, y: -20}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -29, y: -20}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -28, y: -20}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -29, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -28, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -27, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -26, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -25, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -24, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -24, y: -22}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -24, y: -21}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -24, y: -20}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -27, y: -20}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -27, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -27, y: -18}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -27, y: -17}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -27, y: -16}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -26, y: -16}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -24, y: -16}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -25, y: -16}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -23, y: -16}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -22, y: -16}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -16}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -17}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -18}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -24, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -23, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -21, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -22, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -20, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -18, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -19, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -16, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -17, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -15, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -13, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -12, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -14, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -20, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -19, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -18, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -17, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -16, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -15, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -14, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -13, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -12, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -12, y: -18}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -11, y: -18}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -12, y: -24}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -11, y: -25}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -11, y: -24}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -10, y: -17}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -11, y: -17}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -10, y: -25}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -8, y: -25}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -7, y: -25}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -9, y: -25}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -9, y: -17}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -8, y: -17}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -7, y: -17}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: -25}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -6, y: -25}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: -24}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -4, y: -24}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -4, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -6, y: -17}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: -17}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: -18}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -4, y: -18}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -4, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -3, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -3, y: -24}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -3, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -3, y: -18}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -2, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -1, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 0, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 1, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 2, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -2, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -1, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 3, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 3, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -1, y: -18}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -1, y: -15}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -1, y: -14}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -1, y: -16}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -1, y: -17}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 3, y: -14}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 3, y: -15}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 3, y: -13}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -1, y: -13}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 3, y: -12}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 4, y: -12}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 4, y: -11}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 5, y: -11}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 5, y: -10}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 6, y: -10}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -1, y: -12}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -2, y: -12}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -2, y: -11}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -3, y: -11}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -3, y: -10}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -4, y: -10}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 6, y: -9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: -9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -4, y: -9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: -9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: -8}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: -7}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: -6}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: -5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: -8}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: -7}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: -6}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: -5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: -4}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: -4}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: -1}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: -2}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: 0}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: -3}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: -3}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: -2}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: 0}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: -1}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: 1}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: 1}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: 3}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: 2}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: 3}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: 2}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 27613ede16b695249b578d6c82971e9d, type: 2}
+    cell: {x: -2, y: -3}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 28d3180c11235a943b2bb13f617a42ee, type: 2}
+    cell: {x: 4, y: -1}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 28d3180c11235a943b2bb13f617a42ee, type: 2}
+    cell: {x: -2, y: -1}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: 4}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -5, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -4, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -2, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -3, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 3, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 5, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 6, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 4, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -1, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -1, y: 6}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -1, y: 8}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -1, y: 7}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -1, y: 9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 0, y: 9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 1, y: 9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 2, y: 9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 3, y: 9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 4, y: 9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 5, y: 9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 6, y: 9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 13625051cc6400243af3388cfa1c9f66, type: 2}
+    cell: {x: 6, y: 8}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 13625051cc6400243af3388cfa1c9f66, type: 2}
+    cell: {x: 6, y: 7}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: 5, y: 8}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: 5, y: 7}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: 5, y: 6}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 13625051cc6400243af3388cfa1c9f66, type: 2}
+    cell: {x: 6, y: 6}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: 9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 9, y: 9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 10, y: 9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 8, y: 9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 9, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 11, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 13, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 12, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 10, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 14, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 11, y: 9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 12, y: 9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 13, y: 9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 14, y: 9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 15, y: 9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 16, y: 9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 16, y: 8}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 16, y: 7}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 16, y: 6}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 16, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 15, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 11edfcb6fa6a51343aa0421500f76ac5, type: 2}
+    cell: {x: 14, y: 7}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: 5, y: -9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -3, y: -9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -4, y: -8}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -2, y: -8}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -3, y: -8}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -2, y: -9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -2, y: -10}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 4, y: -10}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 4, y: -9}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 4, y: -8}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 5, y: -8}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 6, y: -8}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 28d3180c11235a943b2bb13f617a42ee, type: 2}
+    cell: {x: 1, y: -1}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -1, y: -7}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 3, y: -7}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 0, y: -7}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: 2, y: -7}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: 6, y: -1}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -4, y: -1}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: 4}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 8, y: 5}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -30, y: -40}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -31, y: -40}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -31, y: -39}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -31, y: -38}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -31, y: -37}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -30, y: -37}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -44, y: -40}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -44, y: -39}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -44, y: -38}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -44, y: -37}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -43, y: -37}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -42, y: -37}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -41, y: -37}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -38, y: -37}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -37}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -38}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -39}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -40, y: -43}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -40, y: -44}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 13625051cc6400243af3388cfa1c9f66, type: 2}
+    cell: {x: -39, y: -42}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 13625051cc6400243af3388cfa1c9f66, type: 2}
+    cell: {x: -38, y: -42}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -31, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -26, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -37, y: -40}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -30, y: -39}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -29, y: -39}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -29, y: -38}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: bcf2ea0676717b348bf07d4c4f85f839, type: 2}
+    cell: {x: -30, y: -38}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -36, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -35, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -34, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -33, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -32, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -30, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -29, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -28, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -27, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -25, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 13625051cc6400243af3388cfa1c9f66, type: 2}
+    cell: {x: -38, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 13625051cc6400243af3388cfa1c9f66, type: 2}
+    cell: {x: -39, y: -41}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -39, y: -37}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -33, y: -31}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -33, y: -30}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -33, y: -29}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -33, y: -28}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -33, y: -27}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -33, y: -26}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -33, y: -25}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: -33, y: -24}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 444c86cc2274b2f44a55411efa083d5d, type: 2}
+    cell: {x: -34, y: -28}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 28d3180c11235a943b2bb13f617a42ee, type: 2}
+    cell: {x: -35, y: -25}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 0, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 1, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 2, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 4, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 6, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 5, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 4, y: -15}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 5, y: -15}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 6, y: -15}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: -16}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: -15}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: -17}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: -18}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: -19}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: -20}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: -21}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: -22}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 424c1b5e2678e764d934d2b9937effb0, type: 2}
+    cell: {x: 7, y: -23}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 13625051cc6400243af3388cfa1c9f66, type: 2}
+    cell: {x: 3, y: -16}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 13625051cc6400243af3388cfa1c9f66, type: 2}
+    cell: {x: 3, y: -17}
+    rotation: 0
+  - obstacle: {fileID: 11400000, guid: 13625051cc6400243af3388cfa1c9f66, type: 2}
+    cell: {x: 3, y: -18}
+    rotation: 0
+  presetEnemies: []
+  backgroundId: grass

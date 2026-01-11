@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 924dbf73504baa74bbea198ed200b2af, type: 3}
+  m_Name: SE_SummonerSpawn
+  m_EditorClassIdentifier: Assembly-CSharp::ObstacleData
+  id: SE_SuicideBomberSpawn
+  displayName: SE_SuicideBomberSpawn
+  prefab: {fileID: 3986050563526643600, guid: 44cd386ba00d6e1459098818ee53b21d, type: 3}
+  footprintCells: {x: 1, y: 1}
+  snapToGrid: 1
+  gridSize: 1
+  placeCooldown: 0.25
+  blocksMovement: 0
+  legacyFootprintSize: {x: 1, y: 1}
+  maxHP: 500
+  lifetime: 0
+  placeSfx: {fileID: 8300000, guid: b1b9c1f0ea1fcae439ed1a4d44ff05fd, type: 3}
+  hitSfx: {fileID: 0}
+  destroySfx: {fileID: 0}

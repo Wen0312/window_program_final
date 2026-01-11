@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac9f966f3cf76724e801094ea07d3ad8, type: 3}
+  m_Name: SetPhaseOnHPThresholdAbilityMelee
+  m_EditorClassIdentifier: Assembly-CSharp::SetPhaseOnHPThresholdAbility2D
+  hpPercentThreshold: 0.3
+  phaseName: Berserker Mode
+  unlockAbilityIndices: 0400000005000000
+  lockAbilityIndices: 0400000005000000
+  phaseEnterSfx: {fileID: 8300000, guid: 1357fedc122ff5e4ab42ac56b6ae36a5, type: 3}

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f9bac11e5b8034ead8d4256410a21d, type: 3}
+  m_Name: WD_Uzi
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  weaponName: Uzi
+  projectilePrefab: {fileID: 920494621588894370, guid: 4d600a60e4d007f469397e2e11032b45, type: 3}
+  projectileSpeed: 15
+  fireCooldown: 0.03
+  damage: 3
+  pellets: 1
+  spreadAngle: 0
+  randomSpreadAngle: 20
+  adsSpreadMultiplier: 0.5
+  adsOrthoSizeOverride: 4
+  weaponSprite: {fileID: 21300000, guid: f178ec0c5c9b74085b5809c645ad53fb, type: 3}
+  weaponSpriteLocalOffset: {x: 0, y: 0}
+  weaponSpriteLocalScale: {x: 1, y: 1}
+  weaponSpriteAngleOffset: 0
+  weaponFlipOnAimLeft: 1
+  weaponSortingOrder: 30
+  adsSpeedMultiplierOverride: 0.4
+  magSize: 40
+  reloadTime: 3.5
+  autoReloadOnEmpty: 1
+  equipDelay: 0.5
+  shootSfx: {fileID: 8300000, guid: 460be9cdc9084e3488881b38f50b7d06, type: 3}
+  reloadSfx: {fileID: 8300000, guid: 1657972b66725b34b87c4b7ec9108cc0, type: 3}
+  equipSfx: {fileID: 8300000, guid: 7e1def409fb9cd04d93ed19f369de15b, type: 3}
+  adsSfx: {fileID: 8300000, guid: 9bd938ea917186d4d903e6f398624e11, type: 3}
+  holdToFire: 1
+  recoilKickDistance: 0.02
+  recoilMaxDistance: 0.1
+  recoilReturnSpeed: 10
+  recoilKickRotationDeg: 5
+  recoilRotReturnSpeed: 25
+  recoilRandomRotSign: 1
+  adsRecoilMultiplier: 0.8

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd691665ba7a8c84e8e7c8a61b186213, type: 3}
+  m_Name: SpecialEnemyData2DBOSSSniper 1
+  m_EditorClassIdentifier: Assembly-CSharp::SpecialEnemyData2D
+  id: SpecialEnemyData2DBOSSSniper 1
+  displayName: SpecialEnemyData2DBOSSSniper 1
+  abilities:
+  - {fileID: 11400000, guid: b7c13d591676a1a43a3e62386b5da74f, type: 2}
+  - {fileID: 11400000, guid: 46396f4d473da3340b26a5ee9c9309d7, type: 2}
+  - {fileID: 11400000, guid: 71be3eda749c89142a17696d205f1813, type: 2}
+  - {fileID: 11400000, guid: ee2956fa06b210c42b4228fb289e576f, type: 2}
+  - {fileID: 11400000, guid: b1a46632d5617834faa343df9aa33c90, type: 2}
+  - {fileID: 11400000, guid: b30955753c6461a4b864c5500505e10e, type: 2}
+  - {fileID: 11400000, guid: be6e7e54050f7e846972ddcadd0522bd, type: 2}

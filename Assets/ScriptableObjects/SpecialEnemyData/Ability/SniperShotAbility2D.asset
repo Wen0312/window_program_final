@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b8110adab06d5429d7fcdcc22b2ef6, type: 3}
+  m_Name: SniperShotAbility2D
+  m_EditorClassIdentifier: Assembly-CSharp::SniperShotAbility2D
+  lineOfSightMask:
+    serializedVersion: 2
+    m_Bits: 320
+  cancelAimIfLineBlocked: 1
+  startLineWidth: 0.02
+  endLineWidth: 0.08
+  startLineColor: {r: 0.6, g: 0, b: 0, a: 0.6}
+  endLineColor: {r: 1, g: 0, b: 0, a: 1}
+  startBlinkInterval: 0.15
+  endBlinkInterval: 0.03
+  detectRange: 15
+  aimDuration: 1.5
+  fireCooldown: 2
+  damage: 10
+  maxRayDistance: 15
+  rayMask:
+    serializedVersion: 2
+    m_Bits: 320
+  firePointName: FirePoint
+  fallbackWorldOffset: {x: 0, y: 0}
+  enableTelegraph: 1
+  blinkInterval: 0.05
+  lineWidth: 0.04
+  lineColor: {r: 1, g: 0, b: 0, a: 1}
+  sortingLayerName: 
+  sortingOrder: 50
+  lineMaterial: {fileID: 0}
+  aimVfxPrefab: {fileID: 0}
+  impactVfxPrefab: {fileID: 0}
+  aimChargeSfx: {fileID: 8300000, guid: 7f1a3b24e439c58478eee19d73538920, type: 3}
+  fireSfx: {fileID: 8300000, guid: f06bdbec3da7f4d4f97e8fd18b4c5ae2, type: 3}

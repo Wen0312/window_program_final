@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e6a995cb5799d4da9e01158e62b374, type: 3}
+  m_Name: BossExplodeOnDeathAbility 1
+  m_EditorClassIdentifier: Assembly-CSharp::ExplodeOnDeathAbility2D
+  radius: 50
+  damage: 1000
+  affectMask:
+    serializedVersion: 2
+    m_Bits: 4864
+  vfxPrefab: {fileID: 0}
+  explodeSfx: {fileID: 8300000, guid: 1357fedc122ff5e4ab42ac56b6ae36a5, type: 3}
